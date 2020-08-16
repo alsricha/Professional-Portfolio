@@ -333,3 +333,7 @@ img{
 .skills_ux{
     width: 45%;
 }
+
+.skills_img{
+    border-radius: .5rem;
+}
