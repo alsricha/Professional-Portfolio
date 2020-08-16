@@ -14,14 +14,14 @@
 
 /* ------ COLORS -------*/
 
-:root {
+:root{
     --first-color: #4070F4;
     --second-color: #0E2431;
 }
 
 /* ---- FONT GLOBAL ----*/
 
-:root {
+:root{
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
@@ -36,7 +36,7 @@
 }
 
 /* ----- MARGINS -----*/
-:root {
+:root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -46,7 +46,7 @@
 }
 
 /* -----Z INDEX -----*/
-:root {
+:root{
 
     --z-back: -10;
     --z-normal: 1;
@@ -100,7 +100,7 @@ img{
 
 .section-title::after{
     position: absoulte;
-    content: "";
+    content: " ";
     width: 64px;
     height: 0.18rem;
     left: 0;
@@ -274,4 +274,62 @@ img{
 .about_img img{
     width: 200px;
     border-radius: .5rem;
+}
+
+/* -- SKILLS SECTION -- */
+.skills_container{
+    row-gap: 2rem;
+    text-align: center;
+}
+.skills_subtitle{
+    margin-bottom: var(--mb-2);
+}
+
+.skills_text{
+    margin-bottom: var(--mb-4);
+}
+.skills_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+
+.skills_icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+}
+
+.skills_names{
+    display: flex;
+    align-items: center;
+
+}
+.skills_bar{
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+
+.skills_html{
+    width: 65%;
+}
+.skills_css{
+    width: 65%;
+}
+.skills_js{
+    width: 45%;
+}
+.skills_ux{
+    width: 45%;
 }
