@@ -383,3 +383,12 @@ img{
     cursor: pointer;
     margin-left: auto;
 }
+
+/* --- FOOTER SECTION --- */
+.footer{
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
