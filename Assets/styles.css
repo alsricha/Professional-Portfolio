@@ -1,7 +1,9 @@
 /* --- GOOGLE FONTS --- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
 
-/* NOTE: ":root" allows me to declare global CSS variables. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
+/*  NOTE:    ":root" allows me to declare global CSS variables. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:root 
+    NOTE:    Using CSS Custom Properties (variables). Source: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+*/
 
 
 /* --- VARIABLES CSS ---*/
@@ -41,4 +43,46 @@
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+}
+
+/* -----Z INDEX -----*/
+:root {
+
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/* ------ BASE ------*/
+*, ::before, ::after{
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--second-color);
+}
+
+h1,h2,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
