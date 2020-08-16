@@ -207,5 +207,44 @@ img{
     right: 0;
 }
 
+/* ---Home Section --- */
+
+.home{
+    height: clac(100vh -3rem);
+    row-gap: 1rem;
+}
+.home_info{
+    align-self: center;
+}
+
+.hom_title{
+    font-size: var(--bg-font-size);
+    margin-bottom: var(--first-color);
+}
+
+.home_social{
+    display: flex;
+    flex-direction: column;
+}
+
+.home_social-icon{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: var(--second-color);
+}
+
+.home_social-icon:hover{
+    color: var(--first-color);
+}
+.home_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 295px;
+}
+
+/* BUTTONS  */
+
 
 
