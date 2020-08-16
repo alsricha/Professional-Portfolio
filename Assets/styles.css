@@ -1,0 +1,18 @@
+/* --- GOOGLE FONTS --- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+
+/* NOTE: ":root" allows me to declare global CSS variables. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
+
+
+/* --- VARIABLES CSS ---*/
+:root{
+    --header-height: 3rem;
+    --font-semi: 600;
+}
+
+/* ------ COLORS -------*/
+
+:root {
+    --first-color: #4070F4;
+    --second-color: #0E2431;
+}
