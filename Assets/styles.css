@@ -162,3 +162,42 @@ img{
 .nav_item{
     margin-bottom: var(--mb-4);
 }
+.nav_link{
+    position: relative;
+    color: #fff;
+}
+.nav_link:hover{
+    position: relative;
+}
+.nav_link:hover::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
+.nav_logo{
+    color: var(--second-color);
+}
+
+.nav_toggle{
+    color: var(--second-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/*--- HAMBURGER MENU ---*/
+
+.active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
