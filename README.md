@@ -11,5 +11,7 @@ Re-created my professional portfolio to include links to github and linkedin web
 Still working out the kinks of the webpage. Color schemes still need to be updated as well as fix some of the transitions from section to section. I would like
 to update the portfolio section photos and add additional context info for each project. 
 
+# Links:
+
 Deployable Link: https://alsricha.github.io/Professional-Portfolio/
 
