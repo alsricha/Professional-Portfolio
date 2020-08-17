@@ -24,13 +24,15 @@
 :root{
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
-    --h2-font-size: 1.25rem;
+    --h1-font-size: 1.25rem;
     --h2-font-size: 0.938rem;
+    --h3-font-size: 2rem;
 }
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
+        --h3-font-size: 5rem;
         --normal-font-size: 1rem;
     }
 }
@@ -86,6 +88,7 @@ img{
     height: auto;
     display: block;
 }
+
 
 /* --- CSS CLASSES ---*/
 
@@ -331,9 +334,6 @@ img{
 .skills_js{
     width: 45%;
 }
-.skills_ux{
-    width: 45%;
-}
 
 .skills_img{
     border-radius: .5rem;
@@ -361,6 +361,17 @@ img{
 
 .portfolio_img img:hover{
     transform: scale(1.1);
+}
+
+h3{
+    color: var(--first-color);
+    font-size: 2rem;
+}
+
+.portfolio_name{
+    font-size: 1.5rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
 }
 
 /*--- CONTACT SECTION ---*/
